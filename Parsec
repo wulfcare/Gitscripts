@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://builds.parsecgaming.com/package/parsec-linux.deb && \
+sudo dpkg -i parsec-linux.deb && \
+sudo apt install -f && \
+parsecd &
